@@ -21,12 +21,11 @@ html {
 }
 
 .box {
-     background-color: #444;
-     color: #fff;
-     border-radius: 5px;
-     padding: 20px;
-     font-size: 150%;
-
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
 * {
@@ -40,7 +39,7 @@ body {
   overflow: hidden;
 }
   .gridcontainer {
-    display: grid;
+  display: grid;
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(2, auto);
@@ -48,17 +47,17 @@ body {
 }
 
   .item1 {
-    grid-row: 1 / 1;
-    grid-column: 1 / 1;
-    background-size: 75%;
-    margin: 1vh;
-    background-repeat: no-repeat;
-    background-position: center;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  background-size: 75%;
+  margin: 1vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
  .item2 {
-   grid-row: 2;
-   margin: 1vh;
+  grid-row: 2;
+  margin: 1vh;
  }
  .item2-1 {
   grid-row: 1;
@@ -76,19 +75,19 @@ body {
   background-position: center;
   margin: 1vh;
  }
-  [class^="item"] {
-    background-color: rgba(250, 250, 250, 0.4);
-    border: 1px transparent solid;
-    mix-blend-mode: screen;
-  }
+[class^="item"] {
+  background-color: rgba(250, 250, 250, 0.4);
+  border: 1px transparent solid;
+  mix-blend-mode: screen;
+}
   
-  [class^="item"]:hover {
-    background-color: rgba(250, 250, 250, 0.6);
-    border: 1px white solid;
-  } 
-  h1 {
-    color:#000000;
-    text-align:center;
+[class^="item"]:hover {
+  background-color: rgba(250, 250, 250, 0.6);
+  border: 1px white solid;
+} 
+h1 {
+  color:#000000;
+  text-align:center;
   }
 .bodybox {
   color: black;
@@ -97,7 +96,7 @@ body {
   font-size: 64px;
   text-decoration-color: black;
 }
-a :visited {
+a:visited {
   color:black;
 }
 a:hover {
