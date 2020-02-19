@@ -20,18 +20,24 @@
     </header>
     <div class="bodybox">
         <div class="gridcontainer">
-        <div class="item1">
-            <h1>Number!</h1>
-        </div>
+        <a href = "number.php">
+                <div class="item1">          
+                    <h1>Number!</h1>
+                    <br><br><br><br><br><br>
+                </div>
+                </a>
         <div class="item2">
             <h1>Algebra!</h1>
         </div>
         <div class="item2-1">
             <h1>Geometry!</h1>
         </div>
-        <div class="item2-2">
-            <h1>Statistics!</h1>
-        </div>
+        <a href = "index.php">
+                <div class="item2-2">          
+                    <h1>Back</h1>
+                    <br><br><br><br><br><br>
+                </div>
+                </a>
        </div>
        </div>
 </body>
