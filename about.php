@@ -14,6 +14,7 @@
     
     <title>Document</title>
 </head>
+<body>
    <header>
        <br>
        <a href = "index.php" class = "header-text">Study Time!</a> 

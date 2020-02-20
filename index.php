@@ -14,6 +14,7 @@
     
     <title>Document</title>
 </head>
+<body>
    <header>
        <br>
        <a href = "index.php" class = "header-text">Study Time!</a> 
@@ -29,13 +30,13 @@
 
         <a href = "sciencehome.php">
             <div class="item2">          
-                <h1>Science!</h1>
+                <h1>Computing!</h1>
                 <br><br><br><br><br><br>
             </div>
             </a>
-            <a href = "sciencehome.php">
+            <a href = "user.php">
                 <div class="item2-1">          
-                    <h1>Computing!</h1>
+                    <h1>Study Log!</h1>
                     <br><br><br><br><br><br>
                 </div>
                 </a>

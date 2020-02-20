@@ -9,12 +9,8 @@ header {
     padding:0;
     margin:0;
   }
-
   a:visited {
     color:black;
-  }
-  a:hover {
-    color:rgba(250, 250, 250, 0.6)
   }
   a {
     color:black;
