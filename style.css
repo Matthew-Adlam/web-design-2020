@@ -28,6 +28,11 @@ html {
   font-size: 150%;
 }
 
+.bodybox {
+
+  flex-grow: 1;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -37,16 +42,18 @@ body {
   padding: 0;
   background-color:green;
   overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-  .gridcontainer {
+.gridcontainer {
   display: grid;
   width: 100%;
   height: 100%;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, 30vh) ;
+  grid-template-rows: repeat(2, 1fr) ;
 }
-
-  .item1 {
+.item1 {
   grid-row: 1 / 1;
   grid-column: 1 / 1;
   background-size: 75%;
@@ -56,7 +63,11 @@ body {
 }
 
  .item2 {
-  grid-row: 2;
+  grid-row: 1;
+  grid-column: 2;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 1vh;
  }
  .item2-1 {
@@ -79,6 +90,7 @@ body {
   background-color: rgba(250, 250, 250, 0.4);
   border: 1px transparent solid;
   mix-blend-mode: screen;
+  height: 100%;
 }
   
 [class^="item"]:hover {

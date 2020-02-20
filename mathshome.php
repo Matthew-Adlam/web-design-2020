@@ -24,7 +24,7 @@
         <a href = "number.php">
                 <div class="item1">          
                     <h1>Number!</h1>
-                    <br><br><br><br><br><br>
+                    
                 </div>
                 </a>
         <div class="item2">
@@ -36,7 +36,7 @@
         <a href = "index.php">
                 <div class="item2-2">          
                     <h1>Back</h1>
-                    <br><br><br><br><br><br>
+                    
                 </div>
                 </a>
        </div>

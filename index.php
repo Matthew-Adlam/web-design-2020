@@ -24,26 +24,25 @@
             <a href = "mathshome.php">
         <div class="item1">          
             <h1>Maths!</h1>
-            <br><br><br><br><br><br>
+            
         </div>
         </a>
-
-        <a href = "sciencehome.php">
+        <a href = "computinghome.php">
             <div class="item2">          
                 <h1>Computing!</h1>
-                <br><br><br><br><br><br>
+                
             </div>
             </a>
             <a href = "user.php">
                 <div class="item2-1">          
                     <h1>Study Log!</h1>
-                    <br><br><br><br><br><br>
+                    
                 </div>
                 </a>
                 <a href = "about.php">
                 <div class="item2-2">          
-                    <h1>About this Website!</h1>
-                    <br><br><br><br><br><br>
+                    <h1>About!</h1>
+                    
                 </div>
                 </a>
        </div>

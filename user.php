@@ -19,5 +19,6 @@
        <br>
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
+    <br>
 </body>
 </html>
