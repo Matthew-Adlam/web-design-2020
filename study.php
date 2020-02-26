@@ -1,3 +1,6 @@
+<?php
+require_once('includes/connect.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,5 +23,35 @@
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
     <h1> Input your study log here! </h1>
+    <form method = "post" action="study.php">
+    <span class="submit">Study Subject:</span><input type="text" name="StudySubject">
+    <span class="submit">Study Information:</span><input type="text" name="StudyInformation">
+    <span class="submit">Study Time :</span><input type="text" name="StudyTime">
+<?php
+    if($_SERVER["REQUEST_METHOD"] =="POST") {
+        $StudySubject= $_POST["StudySubject"];
+        $StudyTime = $_POST["StudyTime"];
+        $StudyInformation = $_POST["StudyInformation"];
+    }
+    try {
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $sth  = $pdo->prepare("INSERT INTO StudyCount (StudySubject,StudyTime,StudyInformation) VALUES (:StudySubject,:StudyTime,:StudyInformation)");
+        $sth->bindValue(':StudySubject', $StudySubject, PDO::PARAM_STR);
+        $sth->bindValue(':StudyTime', $StudyTime, PDO::PARAM_STR);
+        $sth->bindValue(':StudyInformation', $StudyInformation, PDO::PARAM_STR);
+        $count = $sth->execute();
+
+        if($count == 1) {
+            echo "record added";
+        }
+        $pdo = null;
+    }
+    catch(PDOException $e) {
+        echo $e->getMessage();
+    }
+    ?>
+    <input type ="submit" value="submit">
+    </form>
 </body>
 </html>
