@@ -23,23 +23,33 @@ require_once('includes/connect.php');
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
     <h1> Input your study log here! </h1>
+    <br>
     <form method = "post" action="study.php">
-    <span class="submit">Study Subject:</span><input type="text" name="StudySubject">
+    <span class="submit">Study Subject:</span><select id="" name="StudySubject">
+    <option value = "Maths">Maths</option>
+    <option value = "Computing">Computing</option>
+    </select> 
+    <br>
+    <span class="submit">Study Time :</span><input type="time" name="StudyTime">
+    <br>
     <span class="submit">Study Information:</span><input type="text" name="StudyInformation">
-    <span class="submit">Study Time :</span><input type="text" name="StudyTime">
+    <br>
+    <span class = "submit">Study Date:</span><input type = "date" name  = "StudyDate">
 <?php
     if($_SERVER["REQUEST_METHOD"] =="POST") {
         $StudySubject= $_POST["StudySubject"];
         $StudyTime = $_POST["StudyTime"];
         $StudyInformation = $_POST["StudyInformation"];
-    }
+        $StudyDate = $_POST["StudyDate"];
+       /* $DateSubmitted = */
     try {
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $sth  = $pdo->prepare("INSERT INTO StudyCount (StudySubject,StudyTime,StudyInformation) VALUES (:StudySubject,:StudyTime,:StudyInformation)");
+        $sth  = $pdo->prepare("INSERT INTO StudyCount (StudySubject,StudyTime,StudyInformation,StudyDate) VALUES (:StudySubject,:StudyTime,:StudyInformation,:StudyDate)");
         $sth->bindValue(':StudySubject', $StudySubject, PDO::PARAM_STR);
         $sth->bindValue(':StudyTime', $StudyTime, PDO::PARAM_STR);
         $sth->bindValue(':StudyInformation', $StudyInformation, PDO::PARAM_STR);
+        $sth->bindValue(':StudyDate', $StudyDate, PDO::PARAM_STR);
         $count = $sth->execute();
 
         if($count == 1) {
@@ -50,8 +60,12 @@ require_once('includes/connect.php');
     catch(PDOException $e) {
         echo $e->getMessage();
     }
+}
     ?>
+    <br>
     <input type ="submit" value="submit">
+    <br>
+     <a href = "display.php">View your study log! </a>
     </form>
 </body>
 </html>
