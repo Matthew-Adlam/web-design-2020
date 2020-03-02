@@ -22,8 +22,9 @@ require_once('includes/connect.php');
        <br>
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
-    <h1> Input your study log here! </h1>
     <br>
+    <div class = "inputbox">
+    <h1> Input your study log here! </h1>
     <form method = "post" action="study.php">
     <span class="submit">Study Subject:</span><select id="" name="StudySubject">
     <option value = "Maths">Maths</option>
@@ -35,6 +36,7 @@ require_once('includes/connect.php');
     <span class="submit">Study Information:</span><input type="text" name="StudyInformation">
     <br>
     <span class = "submit">Study Date:</span><input type = "date" name  = "StudyDate">
+    <br>
 <?php
     if($_SERVER["REQUEST_METHOD"] =="POST") {
         $StudySubject= $_POST["StudySubject"];
@@ -53,7 +55,7 @@ require_once('includes/connect.php');
         $count = $sth->execute();
 
         if($count == 1) {
-            echo "record added";
+            echo "Record added to the database! Go to the link below to view your study log!";
         }
         $pdo = null;
     }
@@ -65,7 +67,16 @@ require_once('includes/connect.php');
     <br>
     <input type ="submit" value="submit">
     <br>
+    <br>
      <a href = "display.php">View your study log! </a>
     </form>
+    <h1> Studying Tips </h1>
+    <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    </div>
 </body>
 </html>

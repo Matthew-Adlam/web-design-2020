@@ -88,3 +88,9 @@ a:hover {
 a {
   color:black;
 }
+.inputbox {
+  border:2.5% black;
+  border-width: 2.5%;
+  border-style: solid;
+  padding: 2.5%;
+}
