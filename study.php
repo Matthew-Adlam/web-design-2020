@@ -33,7 +33,7 @@ require_once('includes/connect.php');
     <br>
     <span class="submit">Study Time :</span><input type="time" name="StudyTime">
     <br>
-    <span class="submit">Study Information:</span><input type="text" name="StudyInformation">
+    <span class="submit">Study Information:</span><input type="text" name="StudyInformation" class="textarea">
     <br>
     <span class = "submit">Study Date:</span><input type = "date" name  = "StudyDate">
     <br>

@@ -22,6 +22,5 @@
     <h1> About this website! </h1>
     <br>
     <br>
-    <link rel = "https://github.com/Matthew-Adlam/web-design-2020">
 </body>
 </html>

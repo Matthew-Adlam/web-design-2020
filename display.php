@@ -23,8 +23,25 @@ require_once('includes/connect.php');
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
 <br>
-<?php
-
-?>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Time</th>    
+    <th>Subject</th>
+    <th>Details</th>
+  </tr>
+  <br>
+<?php   
+foreach ($pdo -> query("SELECT StudyDate,StudySubject,StudyTime,StudyInformation
+FROM StudyCount") as $row)  { ?>
+   <tr>
+	 <td> <?php echo $row['StudyDate']; ?></td>
+	 <td> <?php echo $row['StudyTime']; ?></td>
+     <td> <?php echo $row['StudySubject']; ?></td>
+     <td> <?php echo $row['StudyInformation']; ?></td>
+	</tr>
+<?php } ?>
+</table>
+<a href = "study.php">Go Back </a>
 </body>
 </html>
