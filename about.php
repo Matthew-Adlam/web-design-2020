@@ -22,5 +22,7 @@
     <h1> About this website! </h1>
     <br>
     <br>
+    <h3> This website was created for the purpose of an assessment. </h3>
+    <br>
 </body>
 </html>

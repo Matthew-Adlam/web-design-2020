@@ -65,14 +65,14 @@ require_once('includes/connect.php');
 }
     ?>
     <br>
-    <input type ="submit" value="submit">
+    <input type ="submit" value="Submit">
     <br>
     <br>
-     <a href = "display.php">View your study log! </a>
+     <a href = "display.php" class = "stylethismatthew">View your study log! </a>
     </form>
     <h1> Studying Tips </h1>
     <ul>
-    <li></li>
+    <li>Study Before Relaxation</li>
     <li></li>
     <li></li>
     <li></li>

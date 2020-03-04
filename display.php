@@ -1,6 +1,8 @@
 <?php
 require_once('includes/connect.php');
 ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,10 +37,10 @@ require_once('includes/connect.php');
 foreach ($pdo -> query("SELECT StudyDate,StudySubject,StudyTime,StudyInformation
 FROM StudyCount") as $row)  { ?>
    <tr>
-	 <td> <?php echo $row['StudyDate']; ?></td>
-	 <td> <?php echo $row['StudyTime']; ?></td>
-     <td> <?php echo $row['StudySubject']; ?></td>
-     <td> <?php echo $row['StudyInformation']; ?></td>
+	 <td> <?php echo htmlspecialchars($row['StudyDate']); ?></td>
+	 <td> <?php echo htmlspecialchars($row['StudyTime']); ?></td>
+     <td> <?php echo htmlspecialchars( $row['StudySubject']); ?></td>
+     <td> <?php echo htmlspecialchars($row['StudyInformation']); ?></td>
 	</tr>
 <?php } ?>
 </table>
