@@ -21,17 +21,17 @@
     </header>
   <div class="bodybox">
         <div class="gridcontainer">
-            <a href = "studyhome.php">        
-            <h1>Tips and Tricks!</h1>
+            <a href = "mathsresource.php">        
+            <h1>Maths!</h1>
         </a>
-        <a href = "resources.php">   
-                <h1>Study Resources!</h1>
+        <a href = "englishresource.php">   
+                <h1>English!</h1>
             </a>
-            <a href = "study.php">      
-                    <h1>Study Log!</h1>                   
+            <a href = "scienceresource.php">      
+                    <h1>Science!</h1>                   
                 </a>
-                <a href = "about.php">
-                    <h1>About!</h1>
+                <a href = "index.php">
+                    <h1>Back!</h1>
                 </a>
        </div>
        </div>

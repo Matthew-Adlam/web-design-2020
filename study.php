@@ -7,7 +7,7 @@ require_once('includes/connect.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" <?php echo time(); ?>>
     <script>window.addEventListener("keydown", function(e) {
       // space, page up, page down and arrow keys:
       if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
@@ -28,7 +28,8 @@ require_once('includes/connect.php');
     <form method = "post" action="study.php">
     <span class="submit">Study Subject:</span><select id="" name="StudySubject">
     <option value = "Maths">Maths</option>
-    <option value = "Computing">Computing</option>
+    <option value = "English">English</option>
+    <option value = "Science">Science</option>
     </select> 
     <br>
     <span class="submit">Study Time :</span><input type="time" name="StudyTime">

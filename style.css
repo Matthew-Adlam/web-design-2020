@@ -97,21 +97,11 @@ a {
 .textarea {
   /* ... */
 }
-input {
-  border:2px black;
-  border-radius:2px;
-}
-span {
-  border:2.5% black;
-  border-width: 2.5%;
-  border-style: solid;
-  padding: 2.5%;
-}
 h3 {
   text-align:center;
 }
 .stylethismatthew {
   color:black;
-  background: red;
+  background: #00d93b;
   ;
 }

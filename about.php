@@ -24,5 +24,6 @@
     <br>
     <h3> This website was created for the purpose of an assessment. </h3>
     <br>
+    <h3> It is aimed at NCEA level 1 students. </h3>
 </body>
 </html>

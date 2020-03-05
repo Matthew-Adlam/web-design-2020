@@ -11,7 +11,6 @@
           e.preventDefault();
       }
   }, false);</script>
-    
     <title>Document</title>
 </head>
 <body>
@@ -19,21 +18,11 @@
        <br>
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
-    <div class="bodybox">
-        <div class="gridcontainer">
-        <a href = "number.php">       
-                    <h1>Number!</h1>
-                </a>
-         <a href = "algebra.php">       
-                    <h1>Algebra!</h1>
-                 </a>
-          <a href = "geometry.php">       
-                    <h1>Geometry!</h1>
-            </a>
-            <a href = "index.php">       
-                    <h1>Back!</h1>
-            </a>
-       </div>
-       </div>
+<h1> Tips and tricks for level 1 Maths! </h1>
+<br>
+<ul>
+<li>Show all working. I know its tedious and boring, but it will get you the marks.</li>
+</ul>
+<a href = "studyhome.php">Back</a>
 </body>
 </html>
