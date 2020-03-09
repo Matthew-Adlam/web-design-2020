@@ -103,5 +103,10 @@ h3 {
 .stylethismatthew {
   color:black;
   background: #00d93b;
-  ;
+}
+.stylelinks {
+  align-items: center;
+}
+tr {
+  border-width: 1px;
 }

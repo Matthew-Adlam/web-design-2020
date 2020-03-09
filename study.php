@@ -71,12 +71,14 @@ require_once('includes/connect.php');
     <br>
      <a href = "display.php" class = "stylethismatthew">View your study log! </a>
     </form>
-    <h1> Studying Tips </h1>
+    <h1> My Top Studying Tips </h1>
     <ul>
-    <li>Study Before Relaxation</li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Study before relaxation</li>
+    <li>Take Breaks - but not too frequently</li>
+    <li>15 minutes/day is better than none during the week and 8hrs on the weekend</li>
+    <li>Ask for help if you need it - ask teachers, parents etc.</li>
+    <li>Discover your learning style</li>
+    <li>Don't be hard on yourself</li>
     </ul>
     </div>
 </body>

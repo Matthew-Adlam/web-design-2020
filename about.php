@@ -25,5 +25,7 @@
     <h3> This website was created for the purpose of an assessment. </h3>
     <br>
     <h3> It is aimed at NCEA level 1 students. </h3>
+    <br>
+    <h3> View my documentation page <a href = "https://github.com/Matthew-Adlam/web-design-2020" class = "stylelinks"> here.</a></h3>
 </body>
 </html>
