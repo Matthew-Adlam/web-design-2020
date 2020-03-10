@@ -69,17 +69,14 @@ require_once('includes/connect.php');
     <input type ="submit" value="Submit">
     <br>
     <br>
-     <a href = "display.php" class = "stylethismatthew">View your study log! </a>
+     <a href = "display.php" class = "stylethismatthew"><u>View your study log!</u> </a>
     </form>
-    <h1> My Top Studying Tips </h1>
-    <ul>
-    <li>Study before relaxation</li>
-    <li>Take Breaks - but not too frequently</li>
+    <h1> My Top 3 Studying Tips </h1>
+    <ol>
     <li>15 minutes/day is better than none during the week and 8hrs on the weekend</li>
     <li>Ask for help if you need it - ask teachers, parents etc.</li>
-    <li>Discover your learning style</li>
     <li>Don't be hard on yourself</li>
-    </ul>
+    </ol>
     </div>
 </body>
 </html>

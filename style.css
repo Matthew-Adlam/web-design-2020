@@ -94,15 +94,11 @@ a {
   border-style: solid;
   padding: 2.5%;
 }
-.textarea {
-  /* ... */
-}
 h3 {
   text-align:center;
 }
 .stylethismatthew {
   color:black;
-  background: #00d93b;
 }
 .stylelinks {
   align-items: center;
