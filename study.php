@@ -26,17 +26,17 @@ require_once('includes/connect.php');
     <div class = "inputbox">
     <h1> Input your study log here! </h1>
     <form method = "post" action="study.php">
-    <span class="submit">Study Subject:</span><select id="" name="StudySubject">
+    <span class="submit">Study Subject:</span><select id="" name="StudySubject" required>
     <option value = "Maths">Maths</option>
     <option value = "English">English</option>
     <option value = "Science">Science</option>
     </select> 
     <br>
-    <span class="submit">Study Time :</span><input type="time" name="StudyTime">
+    <span class="submit">Study Time :</span><input type="time" name="StudyTime" required>
     <br>
-    <span class="submit">Study Information:</span><input type="text" name="StudyInformation" class="textarea">
+    <span class="submit">Study Details:</span><input type="text" name="StudyInformation" class="textarea" maxlength="20" placeholder="Homework" size="20" required>
     <br>
-    <span class = "submit">Study Date:</span><input type = "date" name  = "StudyDate">
+    <span class = "submit">Study Date:</span><input type = "date" name  = "StudyDate" required>
     <br>
 <?php
     if($_SERVER["REQUEST_METHOD"] =="POST") {
@@ -66,6 +66,7 @@ require_once('includes/connect.php');
 }
     ?>
     <br>
+    <p><i>Note: Keep your details short: 1-2 words eg. Revision or Homework.</i> </p>
     <input type ="submit" value="Submit">
     <br>
     <br>

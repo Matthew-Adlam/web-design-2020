@@ -1,5 +1,5 @@
 header {
-  background: radial-gradient(circle at top center, #e6e617, #176ce3);
+  background: radial-gradient(violet,purple);
   color: blue;
   font-family: "Joti One", cursive, Helvetica;
   font-size: 32px;
@@ -103,6 +103,13 @@ h3 {
 .stylelinks {
   align-items: center;
 }
-tr {
+tr,table,td,th {
   border-width: 1px;
+  border:1px solid black;
+  margin-left:10px;
+  border-collapse: collapse;
+
+}
+th,td,tr {
+  padding:3px;
 }

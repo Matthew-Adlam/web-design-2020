@@ -35,11 +35,11 @@ require_once('includes/connect.php');
   <br>
 <?php   
 foreach ($pdo -> query("SELECT StudyDate,StudySubject,StudyTime,StudyInformation
-FROM StudyCount") as $row)  { ?>
+FROM StudyCount ") as $row)  { ?>
    <tr>
 	 <td> <?php echo htmlspecialchars($row['StudyDate']); ?></td>
 	 <td> <?php echo htmlspecialchars($row['StudyTime']); ?></td>
-     <td> <?php echo htmlspecialchars( $row['StudySubject']); ?></td>
+     <td> <?php echo htmlspecialchars($row['StudySubject']); ?></td>
      <td> <?php echo htmlspecialchars($row['StudyInformation']); ?></td>
 	</tr>
 <?php } ?>
