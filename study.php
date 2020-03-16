@@ -8,12 +8,6 @@ require_once('includes/connect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" <?php echo time(); ?>>
-    <script>window.addEventListener("keydown", function(e) {
-      // space, page up, page down and arrow keys:
-      if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-          e.preventDefault();
-      }
-  }, false);</script>
     
     <title>Document</title>
 </head>
@@ -25,6 +19,7 @@ require_once('includes/connect.php');
     <br>
     <div class = "inputbox">
     <h1> Input your study log here! </h1>
+    <img src = "images/download-1.jpg" class = "floatright">
     <form method = "post" action="study.php">
     <span class="submit">Study Subject:</span><select id="" name="StudySubject" required>
     <option value = "Maths">Maths</option>
@@ -72,12 +67,7 @@ require_once('includes/connect.php');
     <br>
      <a href = "display.php" class = "stylethismatthew"><u>View your study log!</u> </a>
     </form>
-    <h1> My Top 3 Studying Tips </h1>
-    <ol>
-    <li>15 minutes/day is better than none during the week and 8hrs on the weekend</li>
-    <li>Ask for help if you need it - ask teachers, parents etc.</li>
-    <li>Don't be hard on yourself</li>
-    </ol>
+  <a href="tips.php">  <h3 class = "abcd"> My Top 5 Studying Tips </h3></a>
     </div>
 </body>
 </html>

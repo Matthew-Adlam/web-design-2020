@@ -18,11 +18,13 @@
        <br>
        <a href = "index.php" class = "header-text">Study Time!</a> 
     </header>
+    <div class = "inputbox">
 <h1> Resources for NCEA Level 1 Maths </h1>
 <br>
 <ul>
 <li>View Level 1 papers and exemplars <a href ="http://www.nzqa.govt.nz/ncea/assessment/search.do?query=Mathematics&view=all&level=01">here. </li>
 </ul>
 <a href = "studyhome.php">Back</a>
+    </div>
 </body>
 </html>
