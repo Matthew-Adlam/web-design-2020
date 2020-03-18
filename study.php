@@ -61,7 +61,7 @@ require_once('includes/connect.php');
 }
     ?>
     <br>
-    <p><i>Note: Keep your details short: 1-2 words eg. Revision or Homework.</i> </p>
+    <p><i>Note: Keep your details short: 1-2 words eg. Homework.</i> </p>
     <input type ="submit" value="Submit">
     <br>
     <br>

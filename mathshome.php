@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
-    <script>window.addEventListener("keydown", function(e) {
-      // space, page up, page down and arrow keys:
-      if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-          e.preventDefault();
-      }
-  }, false);</script>
     <title>Document</title>
 </head>
 <body>
@@ -22,6 +16,9 @@
 <br>
 <ul>
 <li>Show all working. I know its tedious and boring, but it will get you the marks.</li>
+<li>State the final answer at the end of your working so it is clear for the marker.</li>
+<li>For squares questions, remember that -12 is the square root of 144 aswell as 12.</li>
+<li></li>
 </ul>
 <a href = "studyhome.php">Back</a>
 </body>

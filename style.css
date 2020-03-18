@@ -108,7 +108,6 @@ tr,table,td,th {
   border:2px solid black;
   margin-left:10px;
   border-collapse: collapse;
-
 }
 th,td,tr {
   padding:3px;
@@ -119,4 +118,9 @@ th,td,tr {
 .floatright {
   /* I never guessed! */
   float: right;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    display: none;
+  }
 }
