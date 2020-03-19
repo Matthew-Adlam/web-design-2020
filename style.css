@@ -76,8 +76,11 @@ h1 {
   color: black;
 }
 .header-text {
-  font-size: 64px;
+  font-size: 75px;
   text-decoration-color: black;
+  text-emphasis: none;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 a:visited {
   color:black;
@@ -120,7 +123,13 @@ th,td,tr {
   float: right;
 }
 @media only screen and (max-width: 600px) {
+  /* hides images on small screens */
   img {
     display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  a,h3,p,li {
+    font-size: 115%;
   }
 }

@@ -17,7 +17,7 @@
 <ul>
 <li>Show all working. I know its tedious and boring, but it will get you the marks.</li>
 <li>State the final answer at the end of your working so it is clear for the marker.</li>
-<li>For squares questions, remember that -12 is the square root of 144 aswell as 12.</li>
+<li>For squares questions, remember that -12 is the square root of 144 aswell as 12. They have 2 answers, 1 positive and 1 negative.</li>
 <li></li>
 </ul>
 <a href = "studyhome.php">Back</a>
