@@ -114,6 +114,7 @@ tr,table,td,th {
 }
 th,td,tr {
   padding:3px;
+  text-align: center;
 }
 .abcd {
   text-align: left;
@@ -122,13 +123,13 @@ th,td,tr {
   /* I never guessed! */
   float: right;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   /* hides images on small screens */
   img {
     display: none;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 720px) {
   a,h3,p,li {
     font-size: 115%;
   }
