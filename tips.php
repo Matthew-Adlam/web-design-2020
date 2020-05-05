@@ -9,7 +9,7 @@ require_once('includes/connect.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" <?php echo time(); ?>>
     
-    <title>Document</title>
+    <title>Study Time</title>
 </head>
 <body>
    <header>
@@ -28,7 +28,6 @@ require_once('includes/connect.php');
     <li>If what you need to study is not what you want to study, reward yourself for doing it!</li>
     </ol>
     <br>
-    <img src = "images/download.jpg">
     <br>
     <a href = "study.php">Go Back </a>
     </div>

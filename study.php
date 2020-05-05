@@ -9,7 +9,7 @@ require_once('includes/connect.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" <?php echo time(); ?>>
     
-    <title>Document</title>
+    <title>Study Time</title>
 </head>
 <body>
    <header>
