@@ -16,10 +16,16 @@
     <h1> About this website! </h1>
     <br>
     <br>
-    <h3> This website was created for the purpose of an assessment. </h3>
-    <br>
-    <h3> It is aimed at NCEA level 1 students. </h3>
-    <br>
-    <h3> View my documentation page <a href = "https://github.com/Matthew-Adlam/web-design-2020/wiki" class = "stylelinks"> here.</a></h3>
+    <li> This website was created for the purpose of an assessment. </li>
+    <li> It is aimed at NCEA level 1 students. </li>
+    <li> View my documentation page <a href = "https://github.com/Matthew-Adlam/web-design-2020/wiki" class = "stylelinks"> here.</a></li>
+    <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+      
 </body>
 </html>
