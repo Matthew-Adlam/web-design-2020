@@ -30,7 +30,7 @@ a:link {
   grid-gap: 10px;
 }
 .box {
-  background-color: #444;
+  background-color: #fff;
   color: #fff;
   border-radius: 5px;
   padding: 20px;
@@ -141,4 +141,7 @@ padding:0;
 .bodybox {
   flex-grow: 1;
   text-decoration-color: #fff;
+}
+.homepagelinks {
+  color:black;
 }

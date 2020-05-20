@@ -14,16 +14,16 @@
     </header>
   <div class="bodybox">
         <div class="gridcontainer">
-            <a href = "studyhome.php">        
+            <a href = "studyhome.php" class = "homepagelinks">        
             <h1>Tips and Tricks!</h1>
         </a>
-        <a href = "resources.php">   
+        <a href = "resources.php" class = "homepagelinks">   
                 <h1>Study Resources!</h1>
             </a>
-            <a href = "study.php">      
+            <a href = "study.php" class = "homepagelinks">      
                     <h1>Study Log!</h1>                   
                 </a>
-                <a href = "about.php">
+                <a href = "about.php" class = "homepagelinks">
                     <h1>About!</h1>
                 </a>
        </div>
