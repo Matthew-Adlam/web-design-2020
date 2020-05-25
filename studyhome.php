@@ -13,7 +13,7 @@
 <body>
    <header>
        <br>
-       <a href = "index.php" class = "header-text">Study Time!</a> 
+       <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
     </header>
   <div class="bodybox">
         <div class="gridcontainer">

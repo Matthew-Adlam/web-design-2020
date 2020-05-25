@@ -12,7 +12,7 @@
 <body>
    <header>
        <br>
-       <a href = "index.php" class = "header-text">Study Time!</a> 
+       <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
     </header>
     <div class = "inputbox">
 <h1> Resources for NCEA Level 1 Maths </h1>

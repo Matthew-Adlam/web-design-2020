@@ -15,7 +15,8 @@ require_once('includes/connect.php');
 <body>
    <header>
        <br>
-       <a href = "index.php" class = "header-text">Study Time!</a> 
+       <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
+
     </header>
     <br>
     <div class = "inputbox">

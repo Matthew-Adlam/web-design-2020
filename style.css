@@ -27,30 +27,30 @@ html {
 }
 .box {
   background-color: #fff;
-  color: #fff;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
 }
 .gridcontainer a {
   color:blue;
+  border: 2px black solid;
 }
-.gridcontainer a:visited {
+.gridcontainera:visited {
   color: rgba(2, 161, 179,0.4);
-}
-a {
-  color: white;
+} 
+ a {
+  color: black;
   text-decoration: none;
 }
 .gridcontainer a:hover {
   color: green;
+  border: 2px black solid;
 }
 a:hover {
   color:red;
 }
 .gridcontainer > a:hover {
-  background-color: rgba(188, 210, 245, 0.6);
-  border: 2px black solid;
+  background-color: rgba(123, 210, 245, 0.6);
 } 
 * {
   box-sizing: border-box;
@@ -123,8 +123,10 @@ th,td,tr {
 }
 .backtext {
 padding:0;
+color:#000;
 } 
 .bodybox {
   flex-grow: 1;
   text-decoration-color: #fff;
+  border: 2px black solid;
 }

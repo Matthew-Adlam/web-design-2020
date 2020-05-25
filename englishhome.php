@@ -12,7 +12,7 @@
 <body>
    <header>
        <br>
-       <a href = "index.php" class = "header-text">Study Time!</a> 
+       <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
     </header>
 <h1> Tips and tricks for level 1 English! </h1>
 <br>
@@ -22,6 +22,6 @@
 <li>oof</li>
 <li>L</li>
 </ul>
-<a href = "studyhome.php" class="backtext">Back</a>
+<a href = "studyhome.php" style = "color:black">Back</a>
 </body>
 </html>
