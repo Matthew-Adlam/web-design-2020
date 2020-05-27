@@ -1,6 +1,4 @@
-<?php
-require_once('includes/connect.php');
-?>
+<!-- necessities -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,12 +11,14 @@ require_once('includes/connect.php');
     <title>Study Time</title>
 </head>
 <body>
+                  <!-- makes a header - the use of inline styles is to override the css-->
    <header>
        <br>
        <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
 
     </header>
     <br>
+    <!-- displays tips in a list -->
     <div class = "inputbox">
    <h1> My Top 5 Studying Tips: </h1>
    <br>
@@ -31,6 +31,7 @@ require_once('includes/connect.php');
     </ol>
     <br>
     <br>
+    <!-- return to previous page -->
     <a href = "study.php">Go Back </a>
     </div>
 </body>

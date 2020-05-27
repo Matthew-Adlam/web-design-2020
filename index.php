@@ -1,3 +1,4 @@
+<!-- necessities -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +10,12 @@
     <title>Study Time</title>
 </head>
 <body>
+              <!-- makes a header - the use of inline styles is to override the css-->
    <header>
        <br>
-       <a href = "index.php" class = "header-text">Study Time!</a> 
+       <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
     </header>
+              <!-- makes a header - the use of inline styles is to override the css-->
   <div class="bodybox">
         <div class="gridcontainer">
             <a href = "studyhome.php" class = "homepagelinks">        

@@ -1,3 +1,4 @@
+<!-- necessary stuff -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,13 @@
     <title>Study Time</title>
 </head>
 <body>
+                      <!-- makes a header - the use of inline styles is to override the css-->
    <header>
        <br>
-       <a href = "index.php" class = "header-text">Study Time!</a> 
+       <a href = "index.php" class = "header-text" style="color:white">Study Time!</a> 
     </header>
+                <!-- displays information in inputbox -->
+    <div class = "inputbox">
     <h1> About this website! </h1>
     <br>
     <br>
@@ -27,6 +31,6 @@
             alt="Valid CSS!" />
     </a>
 </p>
-      
+</div>
 </body>
 </html>

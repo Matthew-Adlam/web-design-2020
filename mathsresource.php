@@ -1,3 +1,5 @@
+<!-- necessary stuff -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +11,13 @@
 
     <title>Document</title>
 </head>
+              <!-- makes a header - the use of inline styles is to override the css-->
 <body>
    <header>
        <br>
        <a href = "index.php" class = "header-text" style = "color:white">Study Time!</a> 
     </header>
+                <!-- makes inputbox, with the list of tips -->
     <div class = "inputbox">
 <h1> Resources for NCEA Level 1 Maths </h1>
 <br>
@@ -23,7 +27,8 @@
 <li>View Khan Academy, another learning website <a href = "https://www.khanacademy.org/">here.</a></li>
 <li>View Infinity Plus One, a channel that focuses on external tutorials at all levels <a href = "https://www.youtube.com/infinityplusone">here.</a></li>
 </ul>
-<a href = "studyhome.php">Back</a>
-    </div>
+<!-- back to previous page -->
+<a href = "resources.php" class="back">Back</a>
+</div>
 </body>
 </html>

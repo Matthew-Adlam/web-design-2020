@@ -1,3 +1,4 @@
+/* sets properties of the header text */
 .header-text {
   font-size: 75px;
   text-emphasis: none;
@@ -15,6 +16,7 @@ header {
   padding:0;
   margin:0;
 }
+/* basic formatting */
 html {
   box-sizing: border-box;
 }
@@ -25,12 +27,16 @@ html {
   display: grid;
   grid-gap: 10px;
 }
+* {
+  box-sizing: border-box;
+}
 .box {
   background-color: #fff;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
 }
+/* link properties, in .gridcontainer and in general*/
 .gridcontainer a {
   color:blue;
   border: 2px black solid;
@@ -52,12 +58,14 @@ a:hover {
 .gridcontainer > a:hover {
   background-color: rgba(123, 210, 245, 0.6);
 } 
-* {
-  box-sizing: border-box;
-}
+/* aligns h1 and h3 to center*/
 h1 {
   text-align:center;
   }
+h3 {
+    text-align:center;
+  }
+/* body properties*/
 body {
   margin: 0;
   padding: 0;
@@ -66,6 +74,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* properties of the container*/
 .gridcontainer {
   display: grid;
   width: 100%;
@@ -75,33 +84,34 @@ body {
   grid-gap: 2vh;
   padding: 2vh;
 }
-
 .gridcontainer > a {
   border: 1px transparent solid;
   mix-blend-mode: screen;
   height: auto;
 }
+/* styles the input box*/
 .inputbox {
   border-radius:2.5%;
   border-style: solid;
   padding: 2.5%;
 }
-h3 {
-  text-align:center;
-}
+/* aligns items to center*/
 .stylelinks {
   align-items: center;
 }
+/* styles all of these elements with these styles:*/
 tr,table,td,th {
   border-width: 1px;
   border:2px solid black;
   margin-left:10px;
   border-collapse: collapse;
 }
+/* styles all of these elements with these styles:*/
 th,td,tr {
   padding:3px;
   text-align: center;
 }
+/* aligns left*/
 .abcd {
   text-align: left;
 }
@@ -110,9 +120,12 @@ th,td,tr {
   float: right;
 }
 @media only screen and (max-width: 720px) {
-  /* hides images on small screens */
+  /* hides images on small screens, and makes the header text fit on smaller screens*/
   img {
     display: none;
+  }
+  .header-text {
+    font-size:150%;
   }
 }
 @media only screen and (min-width: 720px) {
@@ -121,12 +134,18 @@ th,td,tr {
     font-size: 115%;
   }
 }
+/* makes sure .backtext is black*/
 .backtext {
 padding:0;
 color:#000;
 } 
+/* styles bodybox*/
 .bodybox {
   flex-grow: 1;
   text-decoration-color: #fff;
   border: 2px black solid;
+}
+/* back was too far left*/
+.back {
+  padding-left:100px;
 }
