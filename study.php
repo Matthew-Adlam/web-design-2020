@@ -68,9 +68,9 @@ require_once('includes/connect.php');
 }
     ?>
     <br>
-    <p><i>Note: Keep your details short: 1-2 words eg. Homework.</i> </p>
+    <p><i>Note: Keep your details short: 1-2 words eg. Homework.</i> 
+    <i> All information displayed will be kept on this website only, and there are no identifying factors.</p>
     <input type ="submit" value="Submit">
-    <br>
     <br>
      <a href = "display.php" class = "stylethismatthew"><u>View your study log!</u> </a>
     </form>
