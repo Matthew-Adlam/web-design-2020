@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
     <link rel="icon" href="images/favicon.ico">
 
-    <title>Document</title>
+    <title>Study Time</title>
 </head>
               <!-- makes a header - the use of inline styles is to override the css-->
 <body>

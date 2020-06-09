@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
     <link rel="icon" href="images/favicon.ico">
-    <title>Document</title>
+    <title>Study Time</title>
 </head>
 <body>
       <!-- makes a header - the use of inline styles is to override the css-->
